@@ -39,12 +39,15 @@ body{
         padding-right: 20%;
         font-weight: bold;
         font-family:Arial, Helvetica, sans-serif;
+        box-shadow: 0.3em 0.3em 1em grey;
+        
     }
     &.bottom{
         height: 32%;
         background-color: whitesmoke;
         padding-top: 2%;
         font-size: large;
+        box-shadow: 0.3em 0.3em 1em grey;
     }
     padding-right: 23%;
     padding-left: 5%;
@@ -115,4 +118,7 @@ input{
     border: 1px solid #E5E7EB;
     height: 25px;
     width: 100%;
+}
+input:invalid{
+    border-color: rgb(192, 73, 73);
 }
