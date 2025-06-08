@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.img-container{
+    width: 30%;
+    
+}
+
+img{
+    max-width: 100%;
+    height: 100vh;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.form-content{
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    font-size:x-large;
+    &.top{
+        padding-top: 10%;
+        height: 35%;
+        background-color: whitesmoke;
+        text-wrap: wrap;
+    }
+    &.middle{
+        padding-top: 2%;
+        height: 30%;
+        padding-right: 30%;
+    }
+    &.bottom{
+        height: 35%;
+        background-color: whitesmoke;
+        padding-top: 4%;
+        font-size: large;
+    }
+    padding-right: 23%;
+    padding-left: 5%;
+   
+}
+.form-input{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+.input-top{
+    display: flex;
+    justify-content: space-between;
+}
