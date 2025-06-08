@@ -9,66 +9,70 @@
 <body>
     
         <div class="img-container">
+            <span class="img-text"><img src="odin-lined.png" alt="A nice odin png image"><span class="odin">ODIN</span></span>
             <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="A nice,aesthetic background for a welcome page by Halie west from unsplash">
+            <div class="img-credits">Photo by <a href="">Halie West </a>on <a href="">Unsplash</a>.</div>
         </div>
         <div class="form-container">
             <div class="form-content top">
-                This is not a real online service!You need to know something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+                This is not a real online service! You need to know something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.
                 <br><br>
                 You <i>know</i> you want to.
                 <br><br>
             </div>
             <div class="form-content middle">Let's do this!
                <div class="form-input">
+                <form action="" method="post" id="myForm">
                 <div class="input-top">
-                 <div class="input"> 
+                    <div class="input"> 
                     <p>
-                    <label for="first-name"><div>First name</div></label>
-                        <input type="text" id="first-name">
+                   <div> <label for="first-name">First name</label></div>
+                        <input type="text" id="first-name" placeholder="Ramirez" name="first-name">
+                    </p>
+                    </div>
+                    <div class="input"> 
+                    <p>
+                    <div><label for="Last-name">Last name</label></div>
+                        <input type="text" id="Last-name" placeholder="Cruz" name="Last-name">
+                    </p>
+                    </div>
+                </div>
+                <div class="input-top">
+                   <div class="input"> 
+                    <p>
+                    <div><label for="email">Email</label></div>
+                        <input type="email" id="email" placeholder="cruzramirez@yahoo.com" name="email-id">
                     </p>
                   </div>
-                  <div class="input"> 
+                   <div class="input"> 
                     <p>
-                    <label for="Last-name"><div>Last name</div></label>
-                        <input type="text" id="Last-name">
+                    <div><label for="phone-number">Phone-number</label></div>
+                        <input type="tel" id="phone-number" name="telephone" placeholder="xxxxx-xxxxx">
                     </p>
                   </div>
                 </div>
                 <div class="input-top">
                    <div class="input"> 
                     <p>
-                    <label for="email"><div>Email</div></label>
-                        <input type="text" id="email">
+                    <div><label for="password">Password</label></div>
+                        <input type="password" id="password">
                     </p>
                   </div>
                    <div class="input"> 
                     <p>
-                    <label for="phone-number"><div>Phone-number</div></label>
-                        <input type="text" id="phone-number">
+                    <div><label for="confirm-password">Confirm password</label></div>
+                        <input type="password" id="confirm-password">
                     </p>
                   </div>
                 </div>
-                <div class="input-top">
-                   <div class="input"> 
-                    <p>
-                    <label for="password"><div>Password</div></label>
-                        <input type="text" id="password">
-                    </p>
-                  </div>
-                   <div class="input"> 
-                    <p>
-                    <label for="confirm-password"><div>confirm-password</div></label>
-                        <input type="text" id="confirm-password">
-                    </p>
-                  </div>
-                </div>
+                </form>
                </div>
             </div>
             <div class="form-content bottom">
-                <button>Create account</button>
+                <button type="submit" form="myForm">Create account</button>
                 <br>
                 <br>
-                Already have an account?<a href="">Log in.</a>
+                Already have an account?<a href=""> Log in</a>
             </div>
         </div>
    
